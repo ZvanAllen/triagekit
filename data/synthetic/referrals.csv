@@ -1,0 +1,41 @@
+referral_id,full_name,first_name,last_name,age,postal_fsa,out_of_region_insurance,in_catchment,connected_pcp,waitlist.medication_open,waitlist.procedure_open,waitlist.counselling_open,waitlist.peer_open,request.medication_initiation,request.medication_maintenance,request.procedure,request.counselling,request.peer_support,procedure_type_specified,prior_treatment,comorbidity_uncontrolled,mental_health_history,can_attend_partner_site,virtual_possible,med_history_text,meds_text
+SYN-0001,Quinn Brown,Quinn,Brown,20,Z1A,False,,,True,True,True,True,True,False,False,False,False,uncertain,False,True,False,True,,None reported,Orlistat 120mg; Metformin 500mg
+SYN-0002,Taylor Brown,Taylor,Brown,37,Z1C,False,,True,True,False,True,True,True,False,False,True,False,standard procedure,False,False,False,,True,None reported,Sertraline 50mg
+SYN-0003,Emerson Khan,Emerson,Khan,38,Z3B,False,,False,True,True,True,True,False,False,False,False,False,consultation,False,True,True,False,False,None reported,None
+SYN-0004,Casey Lee,Casey,Lee,19,Q3X,False,,,True,False,True,True,False,False,False,True,False,uncertain,True,True,True,,,None reported,Semaglutide 1mg weekly; Metformin 500mg
+SYN-0005,Riley Roy,Riley,Roy,18,Z5L,False,,True,True,True,True,True,True,False,False,True,True,uncertain,False,,False,True,,None reported,Semaglutide 1mg weekly; Escitalopram 10mg
+SYN-0006,Quinn Chen,Quinn,Chen,61,Z1H,False,,,True,False,True,True,False,False,True,False,False,standard procedure,False,True,True,True,,None reported,Insulin glargine 20 units; Sertraline 50mg
+SYN-0007,Skyler Roy,Skyler,Roy,34,Q3X,False,,True,True,False,True,True,False,False,True,True,True,standard procedure,False,True,False,,True,None reported,Semaglutide 1mg weekly; Lisinopril 10mg
+SYN-0008,Riley Brown,Riley,Brown,40,Z8R,False,,,True,True,True,True,False,False,False,True,True,,False,True,False,True,True,None reported,None
+SYN-0009,Casey Khan,Casey,Khan,46,Z1A,False,,True,True,False,True,True,True,False,False,True,False,uncertain,True,True,False,False,False,None reported,Sertraline 50mg
+SYN-0010,Rowan Lee,Rowan,Lee,21,Z8R,False,,True,True,True,True,True,True,False,True,True,False,,False,,True,,,None reported,Bupropion 150mg
+SYN-0011,Casey Patel,Casey,Patel,25,Q1A,False,,False,True,True,True,True,False,False,False,True,False,standard procedure,False,False,True,False,True,None reported,None
+SYN-0012,Rowan Ali,Rowan,Ali,25,Q3X,True,,,True,True,True,True,False,False,False,False,True,,False,,True,,True,None reported,Semaglutide 1mg weekly
+SYN-0013,Drew Novak,Drew,Novak,34,Z3E,False,,True,True,True,True,True,False,False,False,True,False,standard procedure,True,False,False,True,False,None reported,Orlistat 120mg; Sertraline 50mg
+SYN-0014,Emerson Roy,Emerson,Roy,50,Z3E,False,,,True,True,True,True,False,False,True,False,False,consultation,True,,True,False,True,None reported,None
+SYN-0015,Quinn Smith,Quinn,Smith,42,Z8R,False,,True,True,True,True,True,True,False,False,True,False,standard procedure,False,,True,True,,None reported,None
+SYN-0016,Rowan Garcia,Rowan,Garcia,17,Q3X,False,,True,True,True,True,True,False,False,False,False,False,standard procedure,False,True,False,True,False,None reported,Orlistat 120mg; Furosemide 40mg; Escitalopram 10mg
+SYN-0017,Drew Chen,Drew,Chen,32,Z1H,False,,,True,True,True,True,False,False,False,True,False,uncertain,True,True,True,,True,None reported,None
+SYN-0018,Alex Chen,Alex,Chen,36,Z1C,False,,True,True,False,True,True,False,False,False,False,True,standard procedure,False,,False,False,,None reported,Orlistat 120mg
+SYN-0019,Cameron Roy,Cameron,Roy,62,Q1A,False,,True,True,True,True,True,False,True,False,True,True,,False,False,False,,False,None reported,Semaglutide 1mg weekly; Bupropion 150mg
+SYN-0020,Emerson Smith,Emerson,Smith,26,Z1H,False,,False,True,True,True,True,False,False,False,True,False,standard procedure,False,False,False,,True,None reported,Liraglutide 3mg daily
+SYN-0021,Avery Lee,Avery,Lee,63,Z8R,False,,False,True,True,True,True,True,False,True,True,False,,False,,False,,,None reported,Orlistat 120mg
+SYN-0022,Casey Patel,Casey,Patel,59,Z3E,False,,True,True,True,True,True,True,False,True,True,False,standard procedure,False,,True,False,,None reported,Metformin 500mg
+SYN-0023,Riley Garcia,Riley,Garcia,63,Q3X,False,,,True,True,True,True,False,False,False,True,False,assessment,True,False,True,,True,None reported,Escitalopram 10mg
+SYN-0024,Cameron Ali,Cameron,Ali,18,Z3B,False,,False,True,True,True,True,False,False,False,True,False,standard procedure,True,True,False,False,False,None reported,Semaglutide 1mg weekly; Insulin glargine 20 units
+SYN-0025,Casey Nguyen,Casey,Nguyen,40,U5B,False,,False,True,False,True,True,False,False,False,False,False,,True,False,True,False,True,None reported,Liraglutide 3mg daily
+SYN-0026,Drew Brown,Drew,Brown,41,Z3E,False,,True,True,True,True,True,True,False,True,False,True,,False,,True,True,True,None reported,None
+SYN-0027,Taylor Brown,Taylor,Brown,38,Z1A,False,,,True,False,True,True,True,False,False,True,True,standard procedure,True,False,False,False,False,None reported,Orlistat 120mg; Furosemide 40mg
+SYN-0028,Alex Roy,Alex,Roy,53,U2B,False,,,True,False,True,True,False,False,False,True,False,assessment,True,False,False,True,False,None reported,Escitalopram 10mg
+SYN-0029,Taylor Baker,Taylor,Baker,44,U5B,False,,,True,True,True,True,False,False,True,False,True,uncertain,True,False,False,,False,None reported,Orlistat 120mg; Bupropion 150mg
+SYN-0030,Drew Patel,Drew,Patel,59,Z3E,False,,,True,True,True,True,False,False,True,False,False,consultation,False,,False,False,True,None reported,Escitalopram 10mg
+SYN-0031,Cameron Ali,Cameron,Ali,42,Z3B,False,,,True,True,True,True,False,False,True,True,True,consultation,True,,False,,True,None reported,Orlistat 120mg
+SYN-0032,Elliot Novak,Elliot,Novak,21,Z1H,False,,False,True,True,True,True,True,False,True,False,True,,False,,False,,False,None reported,None
+SYN-0033,Emerson Nguyen,Emerson,Nguyen,45,Z1A,False,,True,True,True,True,True,True,False,False,True,True,standard procedure,False,True,False,True,,None reported,None
+SYN-0034,Casey Chen,Casey,Chen,42,Z5L,False,,,True,True,True,True,False,False,True,False,False,assessment,False,True,True,,True,None reported,None
+SYN-0035,Shawn Ali,Shawn,Ali,44,Z3E,True,,True,True,False,True,True,False,False,False,False,False,uncertain,True,True,False,False,True,None reported,Furosemide 40mg; Escitalopram 10mg
+SYN-0036,Emerson Roy,Emerson,Roy,34,Z3B,False,,False,True,True,True,True,False,False,True,True,False,assessment,False,True,True,,,None reported,Sertraline 50mg
+SYN-0037,Quinn Roy,Quinn,Roy,26,Z1A,False,,False,True,True,True,True,False,False,True,True,True,,False,False,False,False,False,None reported,Semaglutide 1mg weekly
+SYN-0038,Rowan Nguyen,Rowan,Nguyen,47,Z3E,False,,True,True,True,True,True,False,False,False,True,True,uncertain,False,True,True,,True,None reported,Liraglutide 3mg daily
+SYN-0039,Elliot Khan,Elliot,Khan,14,U5B,False,,True,True,True,True,True,True,False,True,False,False,consultation,False,,True,,False,None reported,Orlistat 120mg; Sertraline 50mg
+SYN-0040,Elliot Brown,Elliot,Brown,23,Z3E,False,,False,True,False,True,True,False,False,False,False,True,,True,False,False,,,None reported,Furosemide 40mg

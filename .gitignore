@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# LLM baseline response cache (may echo prompt content)
+.llm_cache/
+
+# Local outputs
+*.local.json
+/results.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

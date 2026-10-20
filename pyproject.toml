@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "triagekit"
+version = "0.1.0"
+description = "A configurable, deterministic, auditable engine for clinical referral triage"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Zack van Allen" }]
+keywords = ["triage", "clinical-decision-support", "rules-engine", "healthcare", "deterministic"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = ["PyYAML>=6.0"]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.40"]
+app = ["openpyxl>=3.1"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "ruff>=0.4"]
+
+[project.scripts]
+triagekit = "triagekit.cli:main"
+triagekit-app = "triagekit.app:main"
+
+[project.urls]
+Homepage = "https://github.com/ZvanAllen/triagekit"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+triagekit = ["configs/*.yaml", "data/*.csv"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+# Pinned so CI is deterministic across ruff versions.
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]  # long lines are fine in comments/prompts
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

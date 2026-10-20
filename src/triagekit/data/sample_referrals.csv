@@ -1,0 +1,13 @@
+referral_id,full_name,first_name,last_name,age,postal_fsa,out_of_region_insurance,in_catchment,connected_pcp,waitlist.medication_open,waitlist.procedure_open,waitlist.counselling_open,waitlist.peer_open,request.medication_initiation,request.medication_maintenance,request.procedure,request.counselling,request.peer_support,procedure_type_specified,prior_treatment,comorbidity_uncontrolled,mental_health_history,can_attend_partner_site,virtual_possible,med_history_text,meds_text
+SYN-0001,Cameron Lee,Cameron,Lee,20,Z3B,False,,True,True,True,True,True,True,False,True,False,False,standard procedure,False,,False,True,True,None reported,Orlistat 120mg; Metformin 500mg
+SYN-0002,Taylor Novak,Taylor,Novak,58,Z8R,False,,,True,True,True,True,False,False,True,False,False,standard procedure,True,,False,False,False,None reported,None
+SYN-0003,Jordan Novak,Jordan,Novak,46,Z3E,False,,,True,True,True,True,True,False,True,False,True,assessment,True,False,False,,True,None reported,Semaglutide 1mg weekly; Bupropion 150mg
+SYN-0004,Drew Martin,Drew,Martin,20,Z5L,False,,False,True,True,True,True,False,True,False,True,False,uncertain,True,False,False,False,True,None reported,None
+SYN-0005,Avery Roy,Avery,Roy,46,Q9Z,True,,False,True,True,True,True,True,False,True,True,False,uncertain,False,,False,True,True,None reported,Semaglutide 1mg weekly; Lisinopril 10mg; Sertraline 50mg
+SYN-0006,Casey Lee,Casey,Lee,41,Z3B,False,,,True,True,True,True,True,False,False,False,False,,False,,False,False,False,None reported,Liraglutide 3mg daily; Escitalopram 10mg
+SYN-0007,Elliot Lee,Elliot,Lee,53,Z1A,True,,True,True,True,True,True,True,False,False,False,True,consultation,False,True,False,False,,None reported,Furosemide 40mg
+SYN-0008,Morgan Garcia,Morgan,Garcia,24,Z1A,False,,False,True,False,True,True,True,False,False,False,True,standard procedure,True,,False,True,,None reported,None
+SYN-0009,Alex Ali,Alex,Ali,29,Z1H,False,,,True,True,True,True,True,False,False,False,False,consultation,False,,False,True,,None reported,None
+SYN-0010,Skyler Young,Skyler,Young,43,Z1H,False,,,True,False,True,True,False,False,False,True,True,consultation,True,False,False,,True,None reported,Bupropion 150mg
+SYN-0011,Jordan Chen,Jordan,Chen,63,Z1H,False,,True,True,True,True,True,False,False,True,False,False,uncertain,False,True,False,True,True,None reported,Escitalopram 10mg
+SYN-0012,Shawn Chen,Shawn,Chen,37,Z5L,False,,,True,True,True,True,False,True,False,False,False,consultation,False,True,False,True,True,None reported,None

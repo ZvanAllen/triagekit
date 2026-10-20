@@ -1,0 +1,80 @@
+# Reference configuration for a fictional weight-management program.
+# Everything program-specific the ruleset needs. Swap this file (and the ruleset)
+# to retarget the engine to another program.
+#
+# NOTE: the catchment patterns, medication lexicons, and destination labels below
+# are ILLUSTRATIVE PLACEHOLDERS for a fictional program, not any real clinic's
+# values. Replace them with your own.
+
+# First-3-character postal codes (FSAs) considered in-catchment.
+# (Arbitrary placeholder patterns; the "Z" prefix is not a real Canadian FSA.)
+catchment_fsa_patterns:
+  - "^Z1[A-H]$"
+  - "^Z3[B-F]$"
+  - "^Z5[KLMN]$"
+  - "^Z8R$"
+
+age_thresholds:
+  paediatric_max_age: 16      # age <= 16 -> redirect to paediatric services
+  youth_redirect_max_age: 17  # age 17 -> youth services; 18+ evaluated as adult
+
+# Procedure types exempt from the "prior treatment required" rule (substring match).
+procedure_exempt_types:
+  - consultation
+  - assessment
+
+# Keyword lexicons for the transparent free-text detectors. Every match is
+# auditable to the exact keyword. Mental-health meds are listed only to document
+# what is deliberately NOT treated as a comorbidity. Replace these example
+# lexicons with the medications relevant to your program.
+keywords:
+  comorbidity_meds:
+    - metformin        # diabetes
+    - insulin
+    - gliclazide
+    - sitagliptin
+    - lisinopril       # hypertension
+    - amlodipine
+    - ramipril
+    - furosemide       # heart failure
+    - spironolactone
+    - tiotropium       # COPD
+    - prednisone       # long-term steroid use
+  comorbidity_history:
+    - diabetes
+    - hypertension
+    - heart failure
+    - coronary artery disease
+    - kidney disease
+    - liver disease
+    - sleep apnea
+    - copd
+    - cancer
+  mental_health_meds:   # excluded from comorbidity detection
+    - sertraline
+    - fluoxetine
+    - paroxetine
+    - citalopram
+    - escitalopram
+    - venlafaxine
+    - duloxetine
+    - bupropion
+    - mirtazapine
+    - trazodone
+    - quetiapine
+    - olanzapine
+    - risperidone
+    - aripiprazole
+    - clonazepam
+    - lorazepam
+    - diazepam
+  treatment_meds:       # medications indicating the client is already on medical treatment
+    - semaglutide
+    - liraglutide
+    - tirzepatide
+    - orlistat
+
+destinations:
+  paediatric: "Paediatric Service"
+  youth: "Youth Service"
+  complexity: "Complexity Clinic"
