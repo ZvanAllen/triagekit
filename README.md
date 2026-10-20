@@ -187,11 +187,11 @@ future work — see below.
 ## Evaluation
 
 This engine was built for a referral program that ended before a formal
-evaluation. During development it was checked against a triage coordinator's
-decisions on 40 mock referrals. That comparison surfaced inconsistencies in the
-reference labels themselves, and the project ended before they were reconciled.
-Because the labels were never finalized, **this repository reports no accuracy
-figure and ships no scoring harness.**
+evaluation. In pre-production validation on 40 mock referrals, it reached
+**95% adjusted agreement** with a triage coordinator's decisions. That comparison
+also surfaced inconsistencies in the reference labels themselves, and the project
+ended before they were finalized, so treat the figure as preliminary. The mock
+referrals and the scoring harness are not included in this repository.
 
 What *is* verified here: the reference ruleset is a behavior-preserving refactor
 of an earlier monolithic engine (checked case by case), and the rule logic is
